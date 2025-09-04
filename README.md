@@ -1,4 +1,4 @@
-# React + Vite
+# Bienvenido al curso de Desarrollo e Implementación de Entornos y Aplicaciones Web
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
