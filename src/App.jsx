@@ -11,8 +11,9 @@ const App = () => {
             <Header/>
             <main>
                 <Banner/>
-                <ContentColumns/>
+                
                 <ContactForm/>
+                <ContentColumns/>
                 
             </main>
             <Footer/>
