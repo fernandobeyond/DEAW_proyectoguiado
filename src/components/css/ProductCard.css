@@ -1,0 +1,80 @@
+.product-card {
+  /* Contenedor principal de la tarjeta */
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.product-card-image {
+  /* Imagen del producto */
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.product-card-content {
+  /* Contenido de la tarjeta (texto y botón) */
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1; /* Permite que este div ocupe el espacio restante */
+}
+
+.product-card-name {
+  /* Nombre del producto */
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #1f2937;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+.product-card-description {
+  /* Descripción del producto */
+  font-size: 1rem;
+  color: #6b7280;
+  line-height: 1.5;
+  flex-grow: 1; /* Ocupa el espacio para que los botones estén alineados */
+}
+
+.product-card-actions {
+  /* Contenedor del precio y el botón */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1.5rem;
+}
+
+.product-card-price {
+  /* Precio del producto */
+  font-size: 1.875rem;
+  font-weight: bold;
+  color: #4f46e5;
+}
+
+.add-to-cart-button {
+  /* Botón de "Añadir al Carrito" */
+  background-color: #4f46e5;
+  color: #ffffff;
+  padding: 0.75rem 1.5rem;
+  border-radius: 9999px;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.add-to-cart-button:hover {
+  background-color: #3f38b2;
+  transform: scale(1.05);
+}

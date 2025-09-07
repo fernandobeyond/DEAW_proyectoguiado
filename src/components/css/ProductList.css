@@ -1,0 +1,29 @@
+.product-list-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 3rem 1rem;
+}
+
+.products-heading {
+  font-size: 2.25rem;
+  font-weight: 800;
+  text-align: center;
+  color: #1f2937;
+  margin-bottom: 2.5rem;
+}
+
+.products-grid {
+  /* Hacemos que los elementos se distribuyan en una rejilla */
+  display: grid;
+  
+  /* Definimos el número de columnas y que el tamaño sea flexible */
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  
+  /* Espacio entre las tarjetas */
+  gap: 2.5rem;
+  
+  /* Para que funcione en navegadores antiguos */
+  display: -ms-grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+  -ms-grid-rows: auto;
+}
