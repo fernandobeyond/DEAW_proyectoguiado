@@ -28,12 +28,11 @@ const App = () => {
 
     // Validador para moverme de pagina en pagina
     const handleNavigateToStore = () => {
-        setIsStorePage(true);
+        setIsStorePage(true); // Ir a tienda
     }
 
-    // Validador para moverme de pagina en pagina
     const handleNavigateToHome = () => {
-        setIsStorePage(false);
+        setIsStorePage(false); // Ir a pagina principal
     }
 
     return (
